@@ -93,5 +93,10 @@ namespace IndiceAcademico
             }
             
         }
+
+        private void uscIndice_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

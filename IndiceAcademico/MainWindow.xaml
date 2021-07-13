@@ -14,15 +14,8 @@
         <Button Content="Profesores" HorizontalAlignment="Left" Margin="0,217,0,0" VerticalAlignment="Top" Width="156" Height="60" Background="Red" BorderBrush="{x:Null}" Foreground="White" FontSize="20" FontFamily="Microsoft Sans Serif" Click="Profesores_ButtonClick"/>
         <Button Content="Calificaciones" HorizontalAlignment="Left" Margin="0,282,0,0" VerticalAlignment="Top" Width="156" Height="60" Background="Red" BorderBrush="{x:Null}" Foreground="White" FontSize="20" FontFamily="Microsoft Sans Serif" Click="Calificacion_ButtonClick"/>
         <Button Content="Indice" HorizontalAlignment="Left" Margin="0,347,0,0" VerticalAlignment="Top" Width="156" Height="60" Background="Red" BorderBrush="{x:Null}" Foreground="White" FontSize="20" FontFamily="Microsoft Sans Serif" Click="Indice_ButtonClick"/>
-        <Image Source="recursos/images/logo-intec-secundario.png" Margin="54,0,653,339"/>
-        <Menu VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="40">
-            <Menu.Background>
-                <ImageBrush ImageSource="recursos/images/Settings-02-128.png"/>
-            </Menu.Background>
-            <MenuItem Header="" Height="40" Width="40">
-                <MenuItem x:Name="CerrarSesion" Header="Cerrar Sesion" Click="CerrarSesion_Click"/>
-            </MenuItem>
-        </Menu>
+        <Image Source="recursos/images/logo-intec-secundario.png" Margin="0,0,640,339"/>
+        
         <Canvas x:Name="PanelUSC" HorizontalAlignment="Left" Height="419" Margin="156,0,0,0" VerticalAlignment="Top" Width="636">
             <mainwindows:EstudiantesWindow x:Name="uscEstudiantes" Height="419" Width="636" Panel.ZIndex="1"/>
             <mainwindows:AsignaturasWindow x:Name="uscAsignaturas" Height="419" Width="636" Panel.ZIndex="0"/>
